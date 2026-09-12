@@ -10,10 +10,11 @@ function Projects() {
     <section id="projects" className="section">
       <div className="container">
 
-        {/* Heading */}
+        {/* Section Heading */}
         <div className="mb-12 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
 
           <div className="max-w-2xl">
+
             <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-indigo-400">
               Featured Projects
             </p>
@@ -23,11 +24,15 @@ function Projects() {
             </h2>
 
             <p className="mt-4 leading-8 text-zinc-400">
-              A selection of full-stack applications and projects
-              I've built while developing my software engineering skills.
+              A selection of applications that demonstrate my
+              experience with frontend development, backend
+              architecture, databases, authentication, and
+              real-world business logic.
             </p>
+
           </div>
 
+          {/* GitHub Link */}
           <a
             href="https://github.com/"
             target="_blank"
@@ -42,10 +47,11 @@ function Projects() {
         {/* Project Grid */}
         <div className="grid gap-6 lg:grid-cols-2">
 
-          {featuredProjects.map((project) => (
+          {featuredProjects.map((project, index) => (
             <ProjectCard
               key={project.title}
               project={project}
+              index={index}
             />
           ))}
 

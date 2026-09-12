@@ -1,6 +1,11 @@
+import hospitalImage from "../projects/hospital.png";
+import businessImage from "../projects/business.png";
+import ecommerceImage from "../projects/ecommerce.png";
+
 const projects = [
   {
     title: "Hospital Management System",
+    category: "Full-Stack Application",
     description:
       "A full-stack hospital management system for managing patients, doctors, appointments, prescriptions, medical records, and invoices with role-based access control.",
     technologies: [
@@ -11,7 +16,7 @@ const projects = [
       "JWT",
       "Material UI",
     ],
-    image: "/projects/hospital.png",
+    image: hospitalImage,
     github: "#",
     live: "#",
     featured: true,
@@ -19,8 +24,9 @@ const projects = [
 
   {
     title: "Business Management System",
+    category: "Full-Stack Application",
     description:
-      "A full-stack business management system designed for pharmacies, retail stores, and grocery businesses with POS, inventory, sales, expenses, salaries, and reporting.",
+      "A business management system for pharmacies, retail stores, and grocery businesses with POS, inventory, sales, expenses, salaries, and reporting.",
     technologies: [
       "React",
       "Tailwind CSS",
@@ -29,7 +35,7 @@ const projects = [
       "MongoDB",
       "JWT",
     ],
-    image: "/projects/business.png",
+    image: businessImage,
     github: "#",
     live: "#",
     featured: true,
@@ -37,8 +43,9 @@ const projects = [
 
   {
     title: "E-commerce Platform",
+    category: "Full-Stack Application",
     description:
-      "A full-stack e-commerce platform with product variants, cart management, order processing, inventory transactions, and secure backend business logic.",
+      "A full-stack e-commerce platform with product variants, cart management, order processing, inventory transactions, stock restoration, and payment integration.",
     technologies: [
       "React",
       "Node.js",
@@ -47,7 +54,7 @@ const projects = [
       "JWT",
       "Stripe",
     ],
-    image: "/projects/ecommerce.png",
+    image: ecommerceImage,
     github: "#",
     live: "#",
     featured: true,
