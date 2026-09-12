@@ -7,7 +7,7 @@ function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-[-10rem] -z-10 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-indigo-500/10 blur-[120px]" />
 
       <div className="container">
-        <div className="grid min-h-[calc(100vh-4rem)] items-center gap-12 py-20 lg:grid-cols-[1.2fr_0.8fr]">
+        <div className="grid min-h-[calc(100vh-4rem)] items-center gap-12 py-20 lg:grid-cols-[1.2fr_0.8fr] animate-[heroIn_0.8s_ease-out_both]">
 
           {/* Hero Content */}
           <div>
@@ -86,7 +86,7 @@ function Hero() {
           </div>
 
           {/* Profile Image */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end animate-[heroIn_0.9s_0.15s_ease-out_both]">
             <div className="relative isolate">
 
               {/* Large ambient indigo glow */}

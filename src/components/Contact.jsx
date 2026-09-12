@@ -24,21 +24,21 @@ function Contact() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
 
               <a
-                href="mailto:your-email@example.com"
+                href="mailto:asifdawar321@gmail.com"
                 className="inline-flex items-center justify-center rounded-lg bg-white px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200"
               >
                 Email Me
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/asifdawar"
                 className="inline-flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-950 px-5 py-3 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:text-white"
               >
                 LinkedIn
               </a>
 
               <a
-                href="#"
+                href="https://github.com/asifrahman-codes"
                 className="inline-flex items-center justify-center rounded-lg border border-zinc-700 bg-zinc-950 px-5 py-3 text-sm font-medium text-zinc-200 transition hover:border-zinc-500 hover:text-white"
               >
                 GitHub

@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 
 function ProjectCard({ project, index }) {
   return (
-    <article className="group overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-700 hover:bg-zinc-900">
+    <article className="group overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 transition-all duration-500 hover:-translate-y-1.5 hover:border-indigo-500/30 hover:bg-zinc-900/70 hover:shadow-2xl hover:shadow-indigo-500/5">
 
       {/* Project Image */}
       <div className="relative aspect-video overflow-hidden bg-zinc-900">
@@ -10,7 +10,7 @@ function ProjectCard({ project, index }) {
         <img
           src={project.image}
           alt={`${project.title} project screenshot`}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
         />
 
         {/* Image Overlay */}
@@ -62,7 +62,7 @@ function ProjectCard({ project, index }) {
           {project.technologies.map((technology) => (
             <span
               key={technology}
-              className="rounded-md border border-zinc-800 bg-zinc-950 px-2.5 py-1.5 text-xs text-zinc-400"
+              className="rounded-md border border-zinc-800 bg-zinc-950 px-2.5 py-1.5 text-xs text-zinc-400 transition-colors duration-200 hover:border-zinc-700 hover:text-zinc-200"
             >
               {technology}
             </span>
@@ -93,7 +93,7 @@ function ProjectCard({ project, index }) {
             className="inline-flex items-center gap-2 text-sm font-medium text-indigo-400 transition hover:text-indigo-300"
           >
             Live Demo
-            <ArrowUpRight size={17} />
+            <ArrowUpRight size={17} className="transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
 
         </div>

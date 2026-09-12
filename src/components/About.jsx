@@ -1,9 +1,12 @@
+import Reveal from "./Reveal";
+
 function About() {
   return (
     <section id="about" className="section">
       <div className="container">
 
         {/* Section Heading */}
+        <Reveal direction="up">
         <div className="mb-12 max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-indigo-400">
             About Me
@@ -19,11 +22,13 @@ function About() {
             real-world problems through software.
           </p>
         </div>
+        </Reveal>
 
         {/* Content */}
         <div className="grid gap-6 lg:grid-cols-3">
 
           {/* About Card */}
+          <Reveal direction="up">
           <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 lg:col-span-2">
             <h3 className="text-xl font-semibold text-white">
               Who I Am
@@ -43,6 +48,7 @@ function About() {
               on real-world projects.
             </p>
           </div>
+          </Reveal>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-1">
