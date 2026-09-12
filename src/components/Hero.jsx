@@ -21,7 +21,7 @@ function Hero() {
             </p>
 
             <h1 className="max-w-4xl text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-              Building practical{" "}
+              Building modern{" "}
               <span className="block text-zinc-400">
                 full-stack applications.
               </span>
@@ -54,7 +54,7 @@ function Hero() {
             {/* Social Links */}
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="https://github.com/asifrhaman"
+                href="https://github.com/asifrahman-codes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-zinc-500 transition hover:text-white"

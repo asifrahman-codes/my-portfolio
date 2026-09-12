@@ -38,7 +38,7 @@ function Navbar() {
             ))}
 
             <a
-              href="/asifrahman_resume.pdf"
+              href="/Asif_Rahman_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-white transition hover:border-zinc-500 hover:bg-zinc-900"
@@ -75,10 +75,10 @@ function Navbar() {
               ))}
 
               <a
-                href="/asifrahman_resume.pdf"
+                href="/Asif_Rahman_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 flex items-center gap-2 rounded-lg border border-zinc-700 px-3 py-3 text-sm font-medium text-white"
+                className="flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-white transition hover:border-zinc-500 hover:bg-zinc-900"
               >
                 <Download size={16} />
                 Resume
