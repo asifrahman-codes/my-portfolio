@@ -61,7 +61,7 @@ function About() {
             </div>
 
             <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6">
-              <p className="text-3xl font-bold text-white">1+</p>
+              <p className="text-3xl font-bold text-white">2+</p>
               <p className="mt-2 text-sm text-zinc-500">
                 Internship Experiences
               </p>
