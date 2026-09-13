@@ -15,10 +15,7 @@ function Reveal({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(element);
-        }
+        setIsVisible(entry.isIntersecting);
       },
       {
         threshold: 0.12,
@@ -40,18 +37,11 @@ function Reveal({
   return (
     <div
       ref={ref}
-      className={`
-        ${className}
-        transform
-        transition-all
-        duration-700
-        ease-out
-        ${
-          isVisible
-            ? "translate-x-0 translate-y-0 opacity-100"
-            : `${directionClasses[direction]} opacity-0`
-        }
-      `}
+      className={`${className} transform transition-all duration-700 ease-out ${
+        isVisible
+          ? "translate-x-0 translate-y-0 opacity-100"
+          : `${directionClasses[direction]} opacity-0`
+      }`}
     >
       {children}
     </div>

@@ -5,12 +5,12 @@ function ProjectCard({ project, index }) {
     <article className="group overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/40 transition-all duration-500 hover:-translate-y-1.5 hover:border-indigo-500/30 hover:bg-zinc-900/70 hover:shadow-2xl hover:shadow-indigo-500/5">
 
       {/* Project Image */}
-      <div className="relative aspect-video overflow-hidden bg-zinc-900">
+      <div className="relative overflow-hidden bg-zinc-900">
 
         <img
           src={project.image}
           alt={`${project.title} project screenshot`}
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+          className="h-full w-full object-contain transition-transform duration-700 ease-out group-hover:scale-[1.04]"
         />
 
         {/* Image Overlay */}
